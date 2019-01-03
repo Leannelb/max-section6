@@ -1,7 +1,7 @@
 import { Component, OnInit, Output } from "@angular/core";
 
 import { Recipe } from "../recipe.model";
-import { EventEmitter } from "events";
+import { EventEmitter } from '@angular/core';
 
 @Component({
   selector: "app-recipe-list",
@@ -18,8 +18,8 @@ export class RecipeListComponent implements OnInit {
       "https://upload.wikimedia.org/wikipedia/commons/1/15/Recipe_logo.jpeg"
     ),
     new Recipe(
-      "A Test Recipe",
-      "This is simply a test",
+      "Second Test Recipe",
+      "Second time around baby!!",
       "https://upload.wikimedia.org/wikipedia/commons/1/15/Recipe_logo.jpeg"
     )
   ];
