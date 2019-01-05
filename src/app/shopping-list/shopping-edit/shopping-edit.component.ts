@@ -1,5 +1,4 @@
-import { Component, OnInit, ElementRef, ViewChild, Output } from '@angular/core';
-import { EventEmitter } from 'protractor';
+import { Component, OnInit, ElementRef, ViewChild, Output, EventEmitter } from '@angular/core';
 
 import { Ingredient } from '../../shared/ingredient.model';
 
